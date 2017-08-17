@@ -10,6 +10,18 @@ app.get("/", function (req, res) {
 	res.render("home")
 })
 
+app.get("/registro", function (req, res) {
+	res.render("signup")
+})
+
+app.get("/login", function (req, res) {
+	res.render("login")
+})
+
+app.get("/ranking", function (req, res) {
+	res.render("ranking")
+})
+
 var port = process.env.PORT || 8080
 
 app.listen(port, function (err) {
