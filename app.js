@@ -1,5 +1,6 @@
 var express = require("express")
 var hb = require("express-handlebars")
+var mongoose = require("mongoose")
 var app = express()
 
 app.engine("handlebars", hb({ defaultLayout: "main"}))
