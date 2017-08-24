@@ -1,6 +1,5 @@
 var express = require("express")
 var hb = require("express-handlebars")
-var mongoose = require("mongoose")
 var app = express()
 
 app.engine("handlebars", hb({ defaultLayout: "main"}))
@@ -21,10 +20,6 @@ app.get("/login", function (req, res) {
 
 app.get("/ranking", function (req, res) {
 	res.render("ranking")
-})
-
-app.get("/ticket", function (req, res) {
-	res.render("ticket")
 })
 
 var port = process.env.PORT || 8080
