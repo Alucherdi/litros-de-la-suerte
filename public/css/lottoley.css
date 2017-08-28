@@ -1,0 +1,118 @@
+a
+{
+   color: #C8D7EB;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #C8D7EB;
+}
+a:active
+{
+   color: #C8D7EB;
+}
+a:hover
+{
+   color: #376BAD;
+   text-decoration: underline;
+}
+a.style1:link
+{
+   color: #0000FF;
+}
+a.style1:visited
+{
+   color: #800080;
+   text-decoration: underline;
+}
+a.style1:active
+{
+   color: #FF0000;
+   text-decoration: underline;
+}
+a.style1:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+h1
+{
+   font-family: Arial;
+   font-size: 32px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
+h2
+{
+   font-family: Arial;
+   font-size: 27px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
+h3
+{
+   font-family: Arial;
+   font-size: 24px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
+h4
+{
+   font-family: Arial;
+   font-size: 21px;
+   font-weight: normal;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
+h5
+{
+   font-family: Arial;
+   font-size: 19px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
+h6
+{
+   font-family: Arial;
+   font-size: 16px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
+.CustomStyle
+{
+   font-family: "Courier New";
+   font-size: 16px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #000080;
+}

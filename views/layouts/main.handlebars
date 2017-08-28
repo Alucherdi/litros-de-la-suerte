@@ -1,16 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link href="/css/bootstrap.min.css" rel="stylesheet">
-	<link href="/css/jquery.dataTables.css" rel="stylesheet">    
-	<link rel="stylesheet" href="/css/main.css" /> 	
-	<script src="/js/jquery.js"></script>
-	<script src="/js/jquery.dataTables.js"></script>
-	<script src="/js/bootstrap.min.js"></script>			
 	<title>Litros de la suerte</title>
+	<meta name="description" content="Bienvenido a litros de la suerte" />
+	<meta name="keywords" content="Litros de la suerte,litros suerte" />
+	<meta name="author" content="Litros de la suerte" />
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<link rel="stylesheet" href="css/litrosdelasuerte.css" type="text/css">
+	<link rel="stylesheet" href="css/index.css" type="text/css">
+	<link href="css/shadowbox.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/lottoley.css" type="text/css">
+	<link rel="stylesheet" href="css/Instrucciones.css" type="text/css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/jquery.dataTables.css" rel="stylesheet">
+	<script src="js/jquery.dataTables.js"></script>
+    <script src="js/bootstrap.min.js"></script>	
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/shadowbox.js"></script>	
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.effects.core.min.js"></script>
+	<script type="text/javascript" src="js/jquery.effects.blind.min.js"></script>
+	<script type="text/javascript" src="js/jquery.effects.bounce.min.js"></script>
+	<script type="text/javascript" src="js/jquery.effects.clip.min.js"></script>
+	<script type="text/javascript" src="js/jquery.effects.drop.min.js"></script>
+	<script type="text/javascript" src="js/jquery.effects.fold.min.js"></script>
+	<script type="text/javascript" src="js/jquery.effects.scale.min.js"></script>
+	<script type="text/javascript" src="js/jquery.effects.slide.min.js"></script>
+	<script type="text/javascript" src="js/wb.slideshow.min.js"></script>
+	<script type="text/javascript" src="js/wwb8.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$("#SlideShow1").slideshow(
+		{
+			interval: 2000,
+			type: 'sequence',
+			effect: 'fade',
+			direction: '',
+			effectlength: 1000
+		});
+		});
+
+	</script>
+	<style>
+	.btn {
+	background: #e9530d;
+	background-image: -webkit-linear-gradient(top, #e9530d, #e9530d);
+	background-image: -moz-linear-gradient(top, #e9530d, #e9530d);
+	background-image: -ms-linear-gradient(top, #e9530d, #e9530d);
+	background-image: -o-linear-gradient(top, #e9530d, #e9530d);
+	background-image: linear-gradient(to bottom, #e9530d, #e9530d);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	text-shadow: 0px 0px 2px #666666;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 30px;
+	padding: 7px 40px 10px 40px;
+	text-decoration: none;
+	}
+	.btn:hover {
+	background: #e9530d;
+	background-image: -webkit-linear-gradient(top, #e9530d, #e9530d);
+	background-image: -moz-linear-gradient(top, #e9530d, #e9530d);
+	background-image: -ms-linear-gradient(top, #e9530d, #e9530d);
+	background-image: -o-linear-gradient(top, #e9530d, #e9530d);
+	background-image: linear-gradient(to bottom, #e9530d, #e9530d);
+	text-decoration: none;
+	}
+	</style>
+	<script>
+		(function() {
+			setInterval(function(){
+			var el = document.getElementById('blink');
+			if(el.className == 'luz'){
+			el.className = 'luz on';
+			}else{
+			el.className = 'luz';
+			}
+			},500);
+			})();
+	</script>
+	<style>
+	.luz.on{
+	color: #FFF;/*color del texto al cambiar*/
+	text-shadow:
+	1px  1px rgba(255, 255, 255, .1),
+    -1px -1px rgba(0, 0, 0, .88),
+     0px  0px 20px #FFF;/*color de la luz del texto*/
+	}
+	.luz{
+	font-size:35px;/*tamaño de la fuente*/
+	color: #FFF;
+	text-shadow:
+    1px  1px rgba(255, 255, 255, .1),
+    -1px -1px rgba(0, 0, 0, .88);
+	}
+	</style>
+	<style>
+	#instrucciones{
+	border-radius: 8px;
+	padding:10px;
+	border: 3px solid #e9530d;
+	}
+	</style>
+	<style type="text/css">
+	.publicidad {
+	float:left;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	}
+	.publicidad img {
+	float:left;
+	padding:200px;
+	border:1px solid #999;
+	margin-right:10px;
+	margin-bottom:10px;
+	}
+	</style>
 </head>
 <body class="landing">
 	{{{body}}}

@@ -11364,7 +11364,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sEmptyTable": "No se encontro registro",
+			"sEmptyTable": "No data available in table",
 	
 	
 			/**
@@ -11396,7 +11396,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfo": "(Registros _TOTAL_ )",
+			"sInfo": "Registros mostrados _START_ de _END_ (Total de los Registros _TOTAL_ )",
 	
 	
 			/**
@@ -11557,7 +11557,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sLengthMenu": "Selecciona la cantidad de concursantes que deseas ver:_MENU_ ",
+			"sLengthMenu": "Selecciona la cantidad de registros que deseas ver por pagina:_MENU_ ",
 	
 	
 			/**
@@ -11648,7 +11648,7 @@
 			 *  @dtopt Language
 			 *  @name DataTable.defaults.language.searchPlaceholder
 			 */
-			"sSearchPlaceholder": "Busca Aqui Tu Usuario",
+			"sSearchPlaceholder": "Busqueda dinamica",
 	
 	
 			/**
