@@ -1,0 +1,40 @@
+.navbar {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logout {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	right: 30px;
+	top: 30px;
+	border-radius: 50px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	width: 70px;
+	height: 70px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 980px) {
+	.navbar {
+		justify-content: center;
+	}
+	
+	.navbar div {
+		width: 80%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.navbar > div > img {
+		object-fit: contain;
+		max-width: 100%;
+	}
+}

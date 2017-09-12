@@ -1,0 +1,55 @@
+#ticket {
+	display: flex;
+	justify-content: center;
+}
+
+#ticketContent {
+	padding: 40px 40px 40px 40px;
+	height: 60%;
+}
+
+#ticketContent > .form-title {
+	text-align: center;
+}
+
+#ticketContent > form {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#ticketContent > form > input[type="text"] {
+}
+
+#ticketContent > form input[type="submit"] {
+	background-color: white;
+	border: 0;
+	width: 100px;
+	height: 50px;
+	padding: 10px 10px 10px 10px;
+
+	transition: box-shadow 0.9s cubic-bezier(0.86, 0, 0.07, 1);
+
+	margin-top: 10px;
+}
+
+#ticketContent > form > button {
+	font-size: 13px;
+	
+	margin-top: 10px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 470px) {
+	#ticketContent {
+		width: 90%;
+	}
+
+	#ticketContent > form input[type="text"] {
+		width: 80%;
+	}
+}

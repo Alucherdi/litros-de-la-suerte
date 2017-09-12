@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="/css/login.css">
+
+{{#if registered }}
+	<script>toast("Usuario registrado correctamente!")</script>
+{{/if}}
+
+<div id="login" class="flexbox">
+	<div id="loginForm" class="card">
+		<div class="form-title">Inicia sesión o registrate para continuar:</div>
+		<hr>
+		<form action="" method="POST">
+			<input type="text" class="form-input" name="usuario" placeholder="usuario">
+			<input type="password" class="form-input" name="password" placeholder="password">
+			<div class="buttons">
+				<button type="submit" class="form-button">Ingresa</button>
+				<button type="button" class="form-button" onclick="window.location.href = '/registro'">Registrate</button>
+			</div>
+		</form>
+	</div>
+</div>

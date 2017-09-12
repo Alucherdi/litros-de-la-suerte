@@ -1,0 +1,93 @@
+.form-input[type="text"], .form-input[type="password"] {
+	padding: 12px 12px 12px 12px;
+	border-radius: 0;
+	font-size: 15px;
+	border: 0;
+	background-color: #98F6DA;
+	transition: background-color 0.2s ease;
+}
+
+.form-input[type="text"]:focus, .form-input[type="password"]:focus{
+	outline: none;
+	background-color: #28E3AC;
+}
+
+.form-title {
+	font-size: 30px;
+	font-weight: 100;
+	opacity: 0.8;
+}
+
+.form-button {
+	transition: background-color .1s ease;
+	transition: box-shadow .2s cubic-bezier(.25,.8,.25,1);
+	background-color: white;
+	padding: 22px 22px 22px 22px;
+	border: none;
+	font-weight: 100;
+	font-size: 25px;
+}
+
+.form-button:active {
+	outline: none;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+}
+
+.form-button:hover {
+	outline: none;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	background-color: #e5e5e5;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #303030;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #303030;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #303030;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #303030;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #303030;
+}
+
+table {
+    border-collapse: collapse;
+}
+table, th, td{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid;
+    border-color: rgb(200, 200, 200);
+}
+
+th {
+    background-color: #A01D26;
+    color: #F4F4EF;
+}
+
+tr {
+    color: rgba(0, 0, 0, 0.8)
+}
+
+tr:nth-child(even) {
+    background-color: #d0e0e0;
+}
+
+tr:hover {
+    background-color: #ACBEBE;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 640px) {
+	.form-title {
+		font-size: 25px;
+	}
+}
