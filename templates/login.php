@@ -4,6 +4,11 @@
 <!-- {{#if registered }}
 	<script>toast("Usuario registrado correctamente!")</script>
 {{/if}} -->
+<?php 
+	if (isset($login) && $login == "false") { 
+		echo "<script>toast('¡Fallo al iniciar la sesión!')</script>";
+	}
+?>
 
 <div id="login" class="flexbox">
 	<div id="loginForm" class="card">

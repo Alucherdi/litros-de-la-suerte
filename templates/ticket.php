@@ -11,6 +11,13 @@
 {{#if error}}
 	<script>toast("Ticket no existente!")</script>
 {{/if}} -->
+
+<?php 
+	if (isset($login) && $login == "true") { 
+		echo "<script>toast('¡Sesión iniciada!')</script>";
+	}
+?>
+
 <div id="ticket">
 	<div id="ticketContent" class="card">
 		<div class="form-title">
