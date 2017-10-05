@@ -1,20 +1,21 @@
 <?php require("public/partials/header.php") ?>
 <link rel="stylesheet" href="/public/css/ticket.css">
-<!-- {{#if added}}
-	<script>toast("Ticket agregado exitosamente!")</script>
-{{/if}}
-
-{{#if repeated}}
-	<script>toast("Este ticket ya ha sido registrado anteriormente!")</script>
-{{/if}}
-
-{{#if error}}
-	<script>toast("Ticket no existente!")</script>
-{{/if}} -->
 
 <?php 
 	if (isset($login) && $login == "true") { 
 		echo "<script>toast('¡Sesión iniciada!')</script>";
+	}
+
+	if (isset($added) && $added == "true") { 
+		echo "<script>toast('¡Ticket añadido!')</script>";
+	}
+
+	if (isset($repeated) && $repeated == "true") { 
+		echo "<script>toast('¡Ticket repetido!')</script>";
+	}
+
+	if (isset($error) && $error == "true") { 
+		echo "<script>toast('¡Ticket no existente!')</script>";
 	}
 ?>
 

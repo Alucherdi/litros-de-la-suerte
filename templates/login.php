@@ -1,12 +1,13 @@
 <?php require("public/partials/header.php") ?>
 <link rel="stylesheet" href="/public/css/login.css">
 
-<!-- {{#if registered }}
-	<script>toast("Usuario registrado correctamente!")</script>
-{{/if}} -->
 <?php 
 	if (isset($login) && $login == "false") { 
 		echo "<script>toast('¡Fallo al iniciar la sesión!')</script>";
+	}
+
+	if (isset($success) && $success == "true") { 
+		echo "<script>toast('¡Registro exitoso!')</script>";
 	}
 ?>
 

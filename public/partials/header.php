@@ -27,4 +27,9 @@
 				<i class="fa fa-sign-out" aria-hidden="true"></i>
 			</div>
 			{{/if}} -->
+			<?php if (isset($_SESSION["usuario"])) { ?>
+				<div class="logout" onclick="window.location.href='/logout'">
+					<i class="fa fa-sign-out" aria-hidden="true"></i>
+				</div>
+			<?php } ?>
 		</div>
